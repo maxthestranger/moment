@@ -1,7 +1,15 @@
+import Header from "../components/header/header";
+import Hero from "../sections/hero";
+import NewProd from "../sections/newProd";
+import MoreInfo from "../sections/moreInfo";
+
 export default function Home() {
   return (
-    <div className="w-full flex justify-center items-center h-screen bg-blue-50">
-        <p className="text-center text-gray-900 font-bold text-5xl"/>
-    </div>
+    <>
+        <Header />
+        <Hero />
+        <NewProd />
+        <MoreInfo />
+    </>
   )
 }
